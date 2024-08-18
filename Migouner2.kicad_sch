@@ -1,0 +1,277 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b5f28d8a-611d-48ff-9a02-46928dcaa688")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 115.57 83.82) (xy 139.7 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d746ff4-dcb2-4d51-88d8-dbdceccc86af")
+	)
+	(wire
+		(pts
+			(xy 115.57 81.28) (xy 139.7 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "431d7708-86fe-44cb-aeb7-b2b15be8354c")
+	)
+	(wire
+		(pts
+			(xy 115.57 86.36) (xy 139.7 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b97503e-a490-4993-aaab-0aabeb8b9d77")
+	)
+	(wire
+		(pts
+			(xy 115.57 88.9) (xy 139.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76bbffee-d4a6-4616-a2d2-9734e5f33832")
+	)
+	(wire
+		(pts
+			(xy 163.83 81.28) (xy 186.69 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4322294-964f-40fd-875f-6086b412a33f")
+	)
+	(sheet
+		(at 97.79 78.74)
+		(size 17.78 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0c0f44d8-261d-41ae-9cae-9be8cc9f6452")
+		(property "Sheetname" "Keyboard Matrix"
+			(at 97.79 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "keyboard_matrix.kicad_sch"
+			(at 97.79 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Col0" input
+			(at 115.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eae8e2cc-92b2-465f-9433-327e567b26e7")
+		)
+		(pin "Col1" input
+			(at 115.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4a939772-f56f-4e54-b891-660e1b67dd4c")
+		)
+		(pin "Row1" input
+			(at 115.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0b539c07-3814-49a7-a2bb-c00e1c865642")
+		)
+		(pin "Row0" input
+			(at 115.57 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "51420ffc-841a-47a1-9bdd-876292bb04db")
+		)
+		(instances
+			(project "Migouner2"
+				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 73.66)
+		(size 22.86 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f32b57f-f488-45d9-9f89-0aee5585211d")
+		(property "Sheetname" "RGB LEDs"
+			(at 186.69 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 186.69 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_Control" input
+			(at 186.69 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "959cd8ca-06b9-452d-aa6d-3be4867937f0")
+		)
+		(instances
+			(project "Migouner2"
+				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 71.12)
+		(size 24.13 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b1e2322e-deed-44ca-8ed8-8f2dfaf00953")
+		(property "Sheetname" "STM32"
+			(at 139.7 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32.kicad_sch"
+			(at 139.7 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PA14" input
+			(at 139.7 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "56d6b918-c7d9-4817-b58f-99270e79a121")
+		)
+		(pin "PA15" input
+			(at 139.7 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d4e0b065-0765-46c7-8c84-871a42cd683b")
+		)
+		(pin "PB3" input
+			(at 139.7 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6cd6358e-84b9-42d6-9c46-9e805961e4ae")
+		)
+		(pin "PB4" input
+			(at 139.7 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a097d704-761f-4008-bfd7-4c86caef3cf5")
+		)
+		(pin "PB5" input
+			(at 163.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "867d8a1a-1c00-41d4-844a-18f0cea985e5")
+		)
+		(instances
+			(project "Migouner2"
+				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -1,0 +1,259 @@
+(footprint "LED-SMD_L3.2-W2.8-TR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "U3"
+		(at 0 -2.5 180)
+		(layer "F.SilkS")
+		(uuid "f407df31-417d-4ecc-b387-7c2b815dd707")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "A"
+		(at 0 2.5 180)
+		(layer "F.Fab")
+		(uuid "579cda7c-0afe-46be-8f0d-082b9e56db7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "JLClib:LED-SMD_L3.2-W2.8-TR"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "320be91b-5a22-4638-9154-ee342b74b8e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d52bdf6f-6c2e-43f3-bd84-da0aef4adda9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f279d28c-5bc4-4322-90ec-4f7d19c8f458")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C5149201"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7aeab87b-f6bf-41d8-b6fd-dbff6f308579")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 -1.4)
+		(end -1.6 -1.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46406398-e3e0-40be-965b-9fb3b786bd01")
+	)
+	(fp_line
+		(start -1.6 -1.4)
+		(end 1.6 -1.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88275026-a33c-42d0-87d1-969f7c8bae9c")
+	)
+	(fp_line
+		(start -1.6 -0.23)
+		(end -1.6 0.23)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b661dea-9166-4d0f-ada9-2a5e415a780a")
+	)
+	(fp_line
+		(start -1.6 1.27)
+		(end -1.6 1.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5cc3eefd-3989-46b1-ae09-97163286e75a")
+	)
+	(fp_line
+		(start -1.6 1.4)
+		(end 1.6 1.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ddf90d28-e8db-4547-91d9-9a6ab9f7352a")
+	)
+	(fp_line
+		(start 1.6 -1.4)
+		(end 1.6 -1.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fde16ba8-1e8d-4c27-9e18-e978e47d67a6")
+	)
+	(fp_line
+		(start 1.6 -0.23)
+		(end 1.6 0.23)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b564741-819d-4358-b2e2-3e184c1fe540")
+	)
+	(fp_line
+		(start 1.6 1.27)
+		(end 1.6 1.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5fe5baf4-feb4-4d39-b745-0c8dec6c837e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.99 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "48354e3a-df1f-4ab2-89ac-8ac2dad2b319")
+	)
+	(fp_circle
+		(center 2.32 -1.42)
+		(end 2.42 -1.42)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9d688a28-ba86-416a-81bb-4285e9346edf")
+	)
+	(fp_circle
+		(center 2.74 -0.81)
+		(end 2.89 -0.81)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "a5534670-1d7c-456e-ac95-2f572c7750f7")
+	)
+	(fp_rect
+		(start -1.8 -1.6)
+		(end 1.8 1.6)
+		(stroke
+			(width 0.03)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "043302b2-1b18-4fca-8b28-c1befd87e6be")
+	)
+	(fp_circle
+		(center 2.94 -1.4)
+		(end 2.97 -1.4)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "339b9d06-b70b-4a71-a999-51f1d88dad95")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "26e63668-4777-4c93-af4e-52e8af7532ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.9 -0.75 90)
+		(size 0.82 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "229f9ccf-a421-4559-a97f-e434550be669")
+	)
+	(pad "2" smd rect
+		(at 2.9 0.75 90)
+		(size 0.82 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "98cded84-0cf8-4ed6-818a-3b9715e81910")
+	)
+	(pad "3" smd rect
+		(at -2.9 0.75 90)
+		(size 0.82 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6cce46ba-bc41-46ee-90fb-ce0cc2123578")
+	)
+	(pad "4" smd rect
+		(at -2.9 -0.75 90)
+		(size 0.82 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a1f7df53-1445-4e3a-abe1-7eb3b2807702")
+	)
+	(model "/home/mig/Documents/Keyboard/Migouner2/JLClib.3dshapes/LED-SMD_L3.2-W2.8-TR.wrl"
+		(offset
+			(xyz 0 -0 0.85)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
