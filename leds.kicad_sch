@@ -928,6 +928,12 @@
 		(uuid "24118f2f-f997-4a74-8d57-c5b485c30c22")
 	)
 	(junction
+		(at 254 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "244c8141-60c6-4ea7-94b8-3f92edc41d23")
+	)
+	(junction
 		(at 307.34 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1388,6 +1394,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "595d7528-5461-4ab6-ae1f-78bf0af912c1")
+	)
+	(junction
+		(at 459.74 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "596a6961-e03e-4127-acfb-98f3f267fb0d")
 	)
 	(junction
 		(at 327.66 45.72)
@@ -1954,6 +1966,12 @@
 		(uuid "a19b7998-81a2-4370-80f6-6b386bc70380")
 	)
 	(junction
+		(at 480.06 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a22ab2fc-998e-43de-945b-03e38b85df29")
+	)
+	(junction
 		(at 129.54 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2228,6 +2246,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9be72bb-ee96-43cc-bfb1-a8eb42f016ef")
+	)
+	(junction
+		(at 266.7 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9d19e11-73ca-4cd6-a083-ecc20766a52a")
 	)
 	(junction
 		(at 154.94 58.42)
@@ -3427,6 +3451,16 @@
 	)
 	(wire
 		(pts
+			(xy 482.6 78.74) (xy 482.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb62d9e-1b02-4b70-88b6-944c27e795de")
+	)
+	(wire
+		(pts
 			(xy 152.4 134.62) (xy 165.1 134.62)
 		)
 		(stroke
@@ -3897,16 +3931,6 @@
 	)
 	(wire
 		(pts
-			(xy 454.66 66.04) (xy 482.6 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d5a4010-f32c-4d15-be27-d9c484ae346e")
-	)
-	(wire
-		(pts
 			(xy 73.66 40.64) (xy 73.66 45.72)
 		)
 		(stroke
@@ -4074,6 +4098,16 @@
 			(type default)
 		)
 		(uuid "34b2e486-e9f8-41b3-a585-60ec723b4207")
+	)
+	(wire
+		(pts
+			(xy 482.6 81.28) (xy 485.14 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34de31f6-6ba2-4c93-891b-f167533842e5")
 	)
 	(wire
 		(pts
@@ -4287,6 +4321,16 @@
 	)
 	(wire
 		(pts
+			(xy 505.46 81.28) (xy 505.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e725d69-fc7f-4f53-90cf-cd052bcb506e")
+	)
+	(wire
+		(pts
 			(xy 228.6 147.32) (xy 241.3 147.32)
 		)
 		(stroke
@@ -4354,6 +4398,16 @@
 			(type default)
 		)
 		(uuid "40755237-526a-4694-8ee3-e96c7e1b05da")
+	)
+	(wire
+		(pts
+			(xy 266.7 172.72) (xy 292.1 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4125d9bf-b03a-4bf2-aa3f-4bdaf4f2e742")
 	)
 	(wire
 		(pts
@@ -4667,6 +4721,16 @@
 	)
 	(wire
 		(pts
+			(xy 505.46 86.36) (xy 480.06 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb045f1-b05f-4ac1-a5a2-a5f00cee554f")
+	)
+	(wire
+		(pts
 			(xy 459.74 81.28) (xy 457.2 81.28)
 		)
 		(stroke
@@ -4894,6 +4958,16 @@
 			(type default)
 		)
 		(uuid "5343e9c5-23e7-4f13-b95a-c22588487911")
+	)
+	(wire
+		(pts
+			(xy 454.66 66.04) (xy 505.46 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "542d79fb-bde0-48fb-a50d-eb6733099a1c")
 	)
 	(wire
 		(pts
@@ -5784,6 +5858,16 @@
 			(type default)
 		)
 		(uuid "7637aae2-0947-438e-8b5f-fd6b10500500")
+	)
+	(wire
+		(pts
+			(xy 485.14 78.74) (xy 485.14 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7644eeb0-ea20-4a67-b8a4-5b8e0033ca8b")
 	)
 	(wire
 		(pts
@@ -7097,6 +7181,16 @@
 	)
 	(wire
 		(pts
+			(xy 485.14 73.66) (xy 459.74 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a009ff8b-662b-495a-bd7a-4f089cfe478e")
+	)
+	(wire
+		(pts
 			(xy 251.46 81.28) (xy 251.46 86.36)
 		)
 		(stroke
@@ -7344,6 +7438,16 @@
 			(type default)
 		)
 		(uuid "a6b0c983-6939-4957-a98e-bf45fed94e2a")
+	)
+	(wire
+		(pts
+			(xy 254 165.1) (xy 266.7 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b5be56-2c0c-49db-b82f-3dbd8e2f9853")
 	)
 	(wire
 		(pts
@@ -8937,7 +9041,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 172.72) (xy 292.1 172.72)
+			(xy 254 172.72) (xy 266.7 172.72)
 		)
 		(stroke
 			(width 0)
@@ -9404,6 +9508,16 @@
 			(type default)
 		)
 		(uuid "ebb06a16-639b-48a8-ab9c-2449725ef2af")
+	)
+	(wire
+		(pts
+			(xy 505.46 66.04) (xy 505.46 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe96bb7-f184-4c30-ba61-1982b368eedb")
 	)
 	(wire
 		(pts
@@ -9957,16 +10071,6 @@
 	)
 	(wire
 		(pts
-			(xy 482.6 66.04) (xy 482.6 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff108acd-2843-4d66-97b4-10f386143761")
-	)
-	(wire
-		(pts
 			(xy 180.34 30.48) (xy 154.94 30.48)
 		)
 		(stroke
@@ -10269,7 +10373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05d22c5d-446d-4404-87aa-4ad3731e4213")
-		(property "Reference" "U73"
+		(property "Reference" "U74"
 			(at 63.5 87.63 0)
 			(effects
 				(font
@@ -10336,7 +10440,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "U73")
+					(reference "U74")
 					(unit 1)
 				)
 			)
@@ -10918,7 +11022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "136cb5bf-9c6e-418a-b81f-279ad10717e2")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR018"
 			(at 45.72 21.59 0)
 			(effects
 				(font
@@ -10968,7 +11072,7 @@
 		(instances
 			(project ""
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "#PWR020")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10984,7 +11088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1393b2f0-28ec-4ce1-9b5d-ec9a4da44173")
-		(property "Reference" "K84"
+		(property "Reference" "K80"
 			(at 130.81 180.3399 0)
 			(effects
 				(font
@@ -11047,7 +11151,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K84")
+					(reference "K80")
 					(unit 1)
 				)
 			)
@@ -11063,7 +11167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "145e6b7e-ba8f-4e54-8fdb-7c2da97ef4b8")
-		(property "Reference" "K85"
+		(property "Reference" "K81"
 			(at 143.51 180.3399 0)
 			(effects
 				(font
@@ -11126,7 +11230,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K85")
+					(reference "K81")
 					(unit 1)
 				)
 			)
@@ -11142,7 +11246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "147e1da7-ecb7-4f00-87f7-c67e70914711")
-		(property "Reference" "K75"
+		(property "Reference" "K72"
 			(at 257.81 167.6399 0)
 			(effects
 				(font
@@ -11205,7 +11309,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K75")
+					(reference "K72")
 					(unit 1)
 				)
 			)
@@ -11547,7 +11651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d4a6024-bb74-4a81-9930-884b10ab6cfb")
-		(property "Reference" "U83"
+		(property "Reference" "U84"
 			(at 317.5 87.63 0)
 			(effects
 				(font
@@ -11614,7 +11718,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "U83")
+					(reference "U84")
 					(unit 1)
 				)
 			)
@@ -11630,7 +11734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e3edc0e-865a-4756-8544-57fbded0d078")
-		(property "Reference" "K86"
+		(property "Reference" "K82"
 			(at 156.21 180.3399 0)
 			(effects
 				(font
@@ -11693,7 +11797,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K86")
+					(reference "K82")
 					(unit 1)
 				)
 			)
@@ -11874,7 +11978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2193e412-02ad-4ce3-bcdc-4dae37574f18")
-		(property "Reference" "K64"
+		(property "Reference" "K61"
 			(at 118.11 167.6399 0)
 			(effects
 				(font
@@ -11937,7 +12041,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K64")
+					(reference "K61")
 					(unit 1)
 				)
 			)
@@ -12604,7 +12708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35fcebca-3d0d-4608-b129-131bac317aa7")
-		(property "Reference" "K74"
+		(property "Reference" "K71"
 			(at 245.11 167.6399 0)
 			(effects
 				(font
@@ -12667,7 +12771,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K74")
+					(reference "K71")
 					(unit 1)
 				)
 			)
@@ -13251,7 +13355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40826023-bb27-4783-a944-7d04e9679f40")
-		(property "Reference" "K60"
+		(property "Reference" "K57"
 			(at 67.31 167.6399 0)
 			(effects
 				(font
@@ -13314,7 +13418,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K60")
+					(reference "K57")
 					(unit 1)
 				)
 			)
@@ -13398,6 +13502,85 @@
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
 					(reference "U41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 266.7 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "423aed87-edb6-414b-a151-d0a6f6d750ee")
+		(property "Reference" "K73"
+			(at 270.51 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 270.51 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLClib:C0402"
+			(at 267.6652 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Murata-Electronics-GRM033C80J104KE15D_C415519.pdf"
+			(at 266.7 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5448875"
+			(at 266.7 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d472b43-aaff-4983-9c97-f3dd19771eb1")
+		)
+		(pin "2"
+			(uuid "3c5680ca-7eab-4f53-a865-e2c9369473d9")
+		)
+		(instances
+			(project "Migouner2"
+				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
+					(reference "K73")
 					(unit 1)
 				)
 			)
@@ -13496,7 +13679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4443cc99-059c-408b-b8d2-bb8c9ad59686")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR019"
 			(at 49.53 101.6 0)
 			(effects
 				(font
@@ -13547,7 +13730,7 @@
 		(instances
 			(project ""
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "#PWR021")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -13727,7 +13910,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b0c4e74-4e4d-48c2-ab54-b03749bc7152")
-		(property "Reference" "K78"
+		(property "Reference" "K74"
 			(at 54.61 180.3399 0)
 			(effects
 				(font
@@ -13790,7 +13973,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K78")
+					(reference "K74")
 					(unit 1)
 				)
 			)
@@ -13888,7 +14071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4daa7a9a-a30c-48d6-be67-1ce01777c882")
-		(property "Reference" "K63"
+		(property "Reference" "K60"
 			(at 105.41 167.6399 0)
 			(effects
 				(font
@@ -13951,7 +14134,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K63")
+					(reference "K60")
 					(unit 1)
 				)
 			)
@@ -14685,7 +14868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5973e913-4413-4871-8098-67be7103b7c5")
-		(property "Reference" "K88"
+		(property "Reference" "K84"
 			(at 181.61 180.3399 0)
 			(effects
 				(font
@@ -14748,7 +14931,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K88")
+					(reference "K84")
 					(unit 1)
 				)
 			)
@@ -14764,7 +14947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a2ce030-5dac-4077-a14c-1a8b5ff0a014")
-		(property "Reference" "K62"
+		(property "Reference" "K59"
 			(at 92.71 167.6399 0)
 			(effects
 				(font
@@ -14827,7 +15010,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K62")
+					(reference "K59")
 					(unit 1)
 				)
 			)
@@ -14843,7 +15026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b3633c1-a826-4fc1-8fc6-c7c5419000cb")
-		(property "Reference" "K79"
+		(property "Reference" "K75"
 			(at 67.31 180.3399 0)
 			(effects
 				(font
@@ -14906,7 +15089,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K79")
+					(reference "K75")
 					(unit 1)
 				)
 			)
@@ -15004,7 +15187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cd4ce14-af87-430f-bce1-b4b112ae08f7")
-		(property "Reference" "K87"
+		(property "Reference" "K83"
 			(at 168.91 180.3399 0)
 			(effects
 				(font
@@ -15067,7 +15250,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K87")
+					(reference "K83")
 					(unit 1)
 				)
 			)
@@ -15161,7 +15344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e490899-2cc3-4734-bdb5-7c6815019619")
-		(property "Reference" "K82"
+		(property "Reference" "K78"
 			(at 105.41 180.3399 0)
 			(effects
 				(font
@@ -15224,7 +15407,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K82")
+					(reference "K78")
 					(unit 1)
 				)
 			)
@@ -15401,7 +15584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61314989-2bd0-44c0-a29a-1798113aa3e9")
-		(property "Reference" "K73"
+		(property "Reference" "K70"
 			(at 232.41 167.6399 0)
 			(effects
 				(font
@@ -15464,7 +15647,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K73")
+					(reference "K70")
 					(unit 1)
 				)
 			)
@@ -15723,7 +15906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63341f99-4ed0-4485-b281-c4ed5e8319cd")
-		(property "Reference" "U82"
+		(property "Reference" "U83"
 			(at 292.1 87.63 0)
 			(effects
 				(font
@@ -15790,7 +15973,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "U82")
+					(reference "U83")
 					(unit 1)
 				)
 			)
@@ -15806,7 +15989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "641cc278-05d2-493f-970a-28107f37b332")
-		(property "Reference" "K68"
+		(property "Reference" "K65"
 			(at 168.91 167.6399 0)
 			(effects
 				(font
@@ -15869,7 +16052,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K68")
+					(reference "K65")
 					(unit 1)
 				)
 			)
@@ -16132,7 +16315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "686e1a20-841d-43c8-9c1e-95789dc3cd1b")
-		(property "Reference" "K69"
+		(property "Reference" "K66"
 			(at 181.61 167.6399 0)
 			(effects
 				(font
@@ -16195,7 +16378,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K69")
+					(reference "K66")
 					(unit 1)
 				)
 			)
@@ -16941,7 +17124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b715626-8998-481d-b298-2e5523e690b6")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR021"
 			(at 292.1 196.85 0)
 			(effects
 				(font
@@ -16991,7 +17174,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "#PWR028")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -17007,7 +17190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f3e6a76-7ae2-470d-9b66-a6e7d6b8cb2c")
-		(property "Reference" "K70"
+		(property "Reference" "K67"
 			(at 194.31 167.6399 0)
 			(effects
 				(font
@@ -17070,7 +17253,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K70")
+					(reference "K67")
 					(unit 1)
 				)
 			)
@@ -17164,7 +17347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83a0a8c4-d94b-44c5-9df0-08ca7d6d3cb5")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 44.45 127 0)
 			(effects
 				(font
@@ -17215,7 +17398,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -17231,7 +17414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cca9270-f379-46a1-99ac-6552c2ea9ccd")
-		(property "Reference" "K81"
+		(property "Reference" "K77"
 			(at 92.71 180.3399 0)
 			(effects
 				(font
@@ -17294,7 +17477,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K81")
+					(reference "K77")
 					(unit 1)
 				)
 			)
@@ -17955,7 +18138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "972ef397-7c12-44e4-86fe-7458c467a261")
-		(property "Reference" "K72"
+		(property "Reference" "K69"
 			(at 219.71 167.6399 0)
 			(effects
 				(font
@@ -18018,7 +18201,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K72")
+					(reference "K69")
 					(unit 1)
 				)
 			)
@@ -18433,7 +18616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1a14753-b135-49ec-ae79-60f865a0edcf")
-		(property "Reference" "U79"
+		(property "Reference" "U80"
 			(at 215.9 87.63 0)
 			(effects
 				(font
@@ -18500,7 +18683,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "U79")
+					(reference "U80")
 					(unit 1)
 				)
 			)
@@ -19088,7 +19271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aba42050-a7e9-431b-b4fd-8d49aa8671a4")
-		(property "Reference" "U77"
+		(property "Reference" "U78"
 			(at 165.1 87.63 0)
 			(effects
 				(font
@@ -19155,7 +19338,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "U77")
+					(reference "U78")
 					(unit 1)
 				)
 			)
@@ -19170,7 +19353,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "acbc072d-9999-4b0a-8fe1-1eee5d73401b")
-		(property "Reference" "K59"
+		(property "Reference" "K56"
 			(at 54.61 167.6399 0)
 			(effects
 				(font
@@ -19233,7 +19416,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K59")
+					(reference "K56")
 					(unit 1)
 				)
 			)
@@ -19331,7 +19514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0cea902-48ce-4bfe-bea4-e4ff67629740")
-		(property "Reference" "K83"
+		(property "Reference" "K79"
 			(at 118.11 180.3399 0)
 			(effects
 				(font
@@ -19394,7 +19577,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K83")
+					(reference "K79")
 					(unit 1)
 				)
 			)
@@ -20050,7 +20233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6d68fbe-3b8e-40ef-a3fb-1ca3fac5938f")
-		(property "Reference" "K80"
+		(property "Reference" "K76"
 			(at 80.01 180.3399 0)
 			(effects
 				(font
@@ -20113,7 +20296,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K80")
+					(reference "K76")
 					(unit 1)
 				)
 			)
@@ -20372,7 +20555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bec90bb7-020b-4f6c-ae9f-3098bd433e17")
-		(property "Reference" "U81"
+		(property "Reference" "U82"
 			(at 266.7 87.63 0)
 			(effects
 				(font
@@ -20439,7 +20622,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "U81")
+					(reference "U82")
 					(unit 1)
 				)
 			)
@@ -20935,7 +21118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c65e822f-187f-4824-81b4-e3d09574ce2f")
-		(property "Reference" "K71"
+		(property "Reference" "K68"
 			(at 207.01 167.6399 0)
 			(effects
 				(font
@@ -20998,7 +21181,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K71")
+					(reference "K68")
 					(unit 1)
 				)
 			)
@@ -21417,7 +21600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cea36222-5bcb-49f6-9a89-123cd72ea3f0")
-		(property "Reference" "K65"
+		(property "Reference" "K62"
 			(at 130.81 167.6399 0)
 			(effects
 				(font
@@ -21480,7 +21663,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K65")
+					(reference "K62")
 					(unit 1)
 				)
 			)
@@ -21657,7 +21840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d402cb00-4cec-462a-9afa-a67833f9ebc0")
-		(property "Reference" "K66"
+		(property "Reference" "K63"
 			(at 143.51 167.6399 0)
 			(effects
 				(font
@@ -21720,7 +21903,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K66")
+					(reference "K63")
 					(unit 1)
 				)
 			)
@@ -21736,7 +21919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d416c164-d6ed-4774-bc9b-bc97fc5b9df9")
-		(property "Reference" "K61"
+		(property "Reference" "K58"
 			(at 80.01 167.6399 0)
 			(effects
 				(font
@@ -21799,7 +21982,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K61")
+					(reference "K58")
 					(unit 1)
 				)
 			)
@@ -21815,7 +21998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7340e65-effe-45f1-a9a3-bef65c8dbfbf")
-		(property "Reference" "U74"
+		(property "Reference" "U75"
 			(at 88.9 87.63 0)
 			(effects
 				(font
@@ -21882,7 +22065,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "U74")
+					(reference "U75")
 					(unit 1)
 				)
 			)
@@ -21980,7 +22163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d849d63c-1f68-4780-98f2-36e05f285051")
-		(property "Reference" "K67"
+		(property "Reference" "K64"
 			(at 156.21 167.6399 0)
 			(effects
 				(font
@@ -22043,7 +22226,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "K67")
+					(reference "K64")
 					(unit 1)
 				)
 			)
@@ -22123,6 +22306,88 @@
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
 					(reference "K7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLClib:SK6812MINI-E_C5149201")
+		(at 495.3 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9ebbdb3-ed37-489f-8b33-588028551499")
+		(property "Reference" "U73"
+			(at 495.3 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 495.3 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLClib:LED-SMD_L3.2-W2.8-TR"
+			(at 495.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 495.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 495.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5149201"
+			(at 495.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "265becd9-1dfb-4fac-9a66-6517f1a13b1a")
+		)
+		(pin "3"
+			(uuid "35a2705f-b422-4e1b-8a67-f0b4b3b3740b")
+		)
+		(pin "1"
+			(uuid "8192910b-412b-42f8-821c-eb1f4aa934ed")
+		)
+		(pin "2"
+			(uuid "428a5343-8cd4-4dec-9a77-7652b23f62f4")
+		)
+		(instances
+			(project "Migouner2"
+				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
+					(reference "U73")
 					(unit 1)
 				)
 			)
@@ -22618,7 +22883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec0b6a11-c0a3-49ac-a7e4-c78d4dc517c0")
-		(property "Reference" "U76"
+		(property "Reference" "U77"
 			(at 139.7 87.63 0)
 			(effects
 				(font
@@ -22685,7 +22950,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "U76")
+					(reference "U77")
 					(unit 1)
 				)
 			)
@@ -22701,7 +22966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec5cfc35-fa95-4e55-8cab-b36b8f001152")
-		(property "Reference" "U75"
+		(property "Reference" "U76"
 			(at 114.3 87.63 0)
 			(effects
 				(font
@@ -22768,7 +23033,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "U75")
+					(reference "U76")
 					(unit 1)
 				)
 			)
@@ -22784,7 +23049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee64aea6-f2b0-482a-b722-67f851958119")
-		(property "Reference" "U80"
+		(property "Reference" "U81"
 			(at 241.3 87.63 0)
 			(effects
 				(font
@@ -22851,7 +23116,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "U80")
+					(reference "U81")
 					(unit 1)
 				)
 			)
@@ -22946,7 +23211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f025f7ed-22cb-4ad7-9cbc-243721478070")
-		(property "Reference" "U78"
+		(property "Reference" "U79"
 			(at 190.5 87.63 0)
 			(effects
 				(font
@@ -23013,7 +23278,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/3f32b57f-f488-45d9-9f89-0aee5585211d"
-					(reference "U78")
+					(reference "U79")
 					(unit 1)
 				)
 			)

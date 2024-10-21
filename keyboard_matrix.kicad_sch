@@ -524,6 +524,12 @@
 		(uuid "3940065d-9fd3-416e-aa6b-b44acbe748f1")
 	)
 	(junction
+		(at 160.02 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c552734-bc65-42f9-9106-a79c4e99fb5e")
+	)
+	(junction
 		(at 220.98 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -828,6 +834,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a880d57-abfb-4cb8-9402-59d7e48e273f")
+	)
+	(junction
+		(at 154.94 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9afc3d26-3b2a-46ba-ab05-07143a1c71fc")
 	)
 	(junction
 		(at 83.82 101.6)
@@ -1417,7 +1429,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 76.2) (xy 154.94 127)
+			(xy 154.94 76.2) (xy 154.94 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1434,6 +1446,16 @@
 			(type default)
 		)
 		(uuid "2f349723-5baf-4843-83cd-0be8bc29695e")
+	)
+	(wire
+		(pts
+			(xy 154.94 101.6) (xy 154.94 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3052eb4e-cb3d-4567-b914-0a6e9423a48c")
 	)
 	(wire
 		(pts
@@ -1787,16 +1809,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 91.44) (xy 200.66 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68c08430-515e-42c3-a55c-24f5fb2c9e52")
-	)
-	(wire
-		(pts
 			(xy 93.98 50.8) (xy 93.98 76.2)
 		)
 		(stroke
@@ -1844,6 +1856,16 @@
 			(type default)
 		)
 		(uuid "6dad8529-d8da-4e99-ae81-de184561f5e6")
+	)
+	(wire
+		(pts
+			(xy 160.02 116.84) (xy 170.18 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e41ba84-3ae3-4702-8ace-d3df5dcd8ba1")
 	)
 	(wire
 		(pts
@@ -2044,6 +2066,16 @@
 			(type default)
 		)
 		(uuid "8b1afc77-49f7-4129-a4fd-8859fcc8f40a")
+	)
+	(wire
+		(pts
+			(xy 160.02 91.44) (xy 200.66 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb93991-966d-4052-b46b-a0006c985623")
 	)
 	(wire
 		(pts
@@ -2567,7 +2599,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 116.84) (xy 170.18 116.84)
+			(xy 149.86 116.84) (xy 160.02 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3178,7 +3210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 157.48 78.74 0)
 			(effects
 				(font
@@ -3246,7 +3278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 116.84 104.14 0)
 			(effects
 				(font
@@ -3314,7 +3346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 96.52 78.74 0)
 			(effects
 				(font
@@ -3382,7 +3414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 96.52 53.34 0)
 			(effects
 				(font
@@ -3750,7 +3782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d45bbf1-2538-4677-b4b9-5dc86de0b3cd")
-		(property "Reference" "SW81"
+		(property "Reference" "SW82"
 			(at 177.8 123.19 0)
 			(effects
 				(font
@@ -3766,7 +3798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 177.8 129.54 0)
 			(effects
 				(font
@@ -3802,7 +3834,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "SW81")
+					(reference "SW82")
 					(unit 1)
 				)
 			)
@@ -3992,7 +4024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 76.2 53.34 0)
 			(effects
 				(font
@@ -4060,7 +4092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 218.44 78.74 0)
 			(effects
 				(font
@@ -4207,7 +4239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 198.12 78.74 0)
 			(effects
 				(font
@@ -4259,7 +4291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c29936c-8b78-482e-9997-1942d5b58fd4")
-		(property "Reference" "SW77"
+		(property "Reference" "SW78"
 			(at 137.16 123.19 0)
 			(effects
 				(font
@@ -4275,7 +4307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 137.16 129.54 0)
 			(effects
 				(font
@@ -4311,7 +4343,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "SW77")
+					(reference "SW78")
 					(unit 1)
 				)
 			)
@@ -4485,7 +4517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2420e1d3-2965-4272-8437-aaed2153d88e")
-		(property "Reference" "SW76"
+		(property "Reference" "SW77"
 			(at 96.52 123.19 0)
 			(effects
 				(font
@@ -4501,7 +4533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_6.25u_Plate"
 			(at 96.52 129.54 0)
 			(effects
 				(font
@@ -4537,7 +4569,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "SW76")
+					(reference "SW77")
 					(unit 1)
 				)
 			)
@@ -4569,7 +4601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 66.04 78.74 0)
 			(effects
 				(font
@@ -4779,7 +4811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a234c0a-6d43-4c4f-b75b-5bb2bdd7ee9a")
-		(property "Reference" "SW83"
+		(property "Reference" "SW84"
 			(at 218.44 123.19 0)
 			(effects
 				(font
@@ -4795,7 +4827,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 218.44 129.54 0)
 			(effects
 				(font
@@ -4831,7 +4863,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "SW83")
+					(reference "SW84")
 					(unit 1)
 				)
 			)
@@ -4863,7 +4895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_Plate"
 			(at 35.56 53.34 0)
 			(effects
 				(font
@@ -4931,7 +4963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 106.68 104.14 0)
 			(effects
 				(font
@@ -4983,7 +5015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b4c79e2-cf2a-4be1-9f1f-f26e741edf93")
-		(property "Reference" "SW68"
+		(property "Reference" "SW69"
 			(at 167.64 97.79 0)
 			(effects
 				(font
@@ -4999,7 +5031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 167.64 104.14 0)
 			(effects
 				(font
@@ -5035,7 +5067,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "SW68")
+					(reference "SW69")
 					(unit 1)
 				)
 			)
@@ -5146,7 +5178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 106.68 27.94 0)
 			(effects
 				(font
@@ -5214,7 +5246,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 218.44 53.34 0)
 			(effects
 				(font
@@ -5266,7 +5298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33663fc7-577a-40fe-90ad-7aca2a46057a")
-		(property "Reference" "D83"
+		(property "Reference" "D84"
 			(at 223.52 137.1599 90)
 			(effects
 				(font
@@ -5329,7 +5361,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "D83")
+					(reference "D84")
 					(unit 1)
 				)
 			)
@@ -5345,7 +5377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "370ebb4b-d81d-459e-b10e-9fd0352ddedb")
-		(property "Reference" "D74"
+		(property "Reference" "D75"
 			(at 50.8 137.1599 90)
 			(effects
 				(font
@@ -5408,7 +5440,75 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "D74")
+					(reference "D75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 157.48 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38c4a7fa-1aa0-4df5-8928-82cb95e9a878")
+		(property "Reference" "SW68"
+			(at 157.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 157.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
+			(at 157.48 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 157.48 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0a04cc6-8fff-44ac-bcb4-c1fd92c02fad")
+		)
+		(pin "1"
+			(uuid "1ef9c97b-b404-4125-bacc-4e4ee10e9c7d")
+		)
+		(instances
+			(project "Migouner2"
+				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
+					(reference "SW68")
 					(unit 1)
 				)
 			)
@@ -5440,7 +5540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 187.96 53.34 0)
 			(effects
 				(font
@@ -5508,7 +5608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_Plate"
 			(at 167.64 27.94 0)
 			(effects
 				(font
@@ -5560,7 +5660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e8723b7-09b9-482b-ba9d-16c180c60c34")
-		(property "Reference" "D78"
+		(property "Reference" "D79"
 			(at 152.4 137.1599 90)
 			(effects
 				(font
@@ -5623,7 +5723,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "D78")
+					(reference "D79")
 					(unit 1)
 				)
 			)
@@ -5718,7 +5818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40ae94de-82fb-4a2d-9608-9279e29ed092")
-		(property "Reference" "SW75"
+		(property "Reference" "SW76"
 			(at 55.88 123.19 0)
 			(effects
 				(font
@@ -5734,7 +5834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 55.88 129.54 0)
 			(effects
 				(font
@@ -5770,7 +5870,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "SW75")
+					(reference "SW76")
 					(unit 1)
 				)
 			)
@@ -5786,7 +5886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44effc0e-6468-4131-890f-a48d449d4140")
-		(property "Reference" "D81"
+		(property "Reference" "D82"
 			(at 182.88 137.1599 90)
 			(effects
 				(font
@@ -5849,7 +5949,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "D81")
+					(reference "D82")
 					(unit 1)
 				)
 			)
@@ -5881,7 +5981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 45.72 27.94 0)
 			(effects
 				(font
@@ -5949,7 +6049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 137.16 27.94 0)
 			(effects
 				(font
@@ -6096,7 +6196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 35.56 27.94 0)
 			(effects
 				(font
@@ -6164,7 +6264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 137.16 78.74 0)
 			(effects
 				(font
@@ -6232,7 +6332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 66.04 53.34 0)
 			(effects
 				(font
@@ -6300,7 +6400,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 137.16 104.14 0)
 			(effects
 				(font
@@ -6368,7 +6468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 106.68 53.34 0)
 			(effects
 				(font
@@ -6436,7 +6536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 55.88 104.14 0)
 			(effects
 				(font
@@ -6662,7 +6762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 86.36 27.94 0)
 			(effects
 				(font
@@ -6714,7 +6814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "592bf474-88d7-4fbf-aeb2-39319449523b")
-		(property "Reference" "D77"
+		(property "Reference" "D78"
 			(at 142.24 137.1599 90)
 			(effects
 				(font
@@ -6777,7 +6877,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "D77")
+					(reference "D78")
 					(unit 1)
 				)
 			)
@@ -6809,7 +6909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 187.96 27.94 0)
 			(effects
 				(font
@@ -7114,7 +7214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 198.12 53.34 0)
 			(effects
 				(font
@@ -7166,7 +7266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66846910-ca68-4488-9a49-d85131b3acc9")
-		(property "Reference" "SW69"
+		(property "Reference" "SW70"
 			(at 198.12 97.79 0)
 			(effects
 				(font
@@ -7182,7 +7282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 198.12 104.14 0)
 			(effects
 				(font
@@ -7218,7 +7318,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "SW69")
+					(reference "SW70")
 					(unit 1)
 				)
 			)
@@ -7329,7 +7429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 116.84 53.34 0)
 			(effects
 				(font
@@ -7397,7 +7497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 208.28 78.74 0)
 			(effects
 				(font
@@ -7528,7 +7628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f0e4b69-c38c-4096-9496-b31f660e45ed")
-		(property "Reference" "D72"
+		(property "Reference" "D73"
 			(at 233.68 111.7599 90)
 			(effects
 				(font
@@ -7591,7 +7691,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "D72")
+					(reference "D73")
 					(unit 1)
 				)
 			)
@@ -7765,7 +7865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "732f9e17-8bcc-4f16-b052-3c7dcc985699")
-		(property "Reference" "SW74"
+		(property "Reference" "SW75"
 			(at 45.72 123.19 0)
 			(effects
 				(font
@@ -7781,7 +7881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 45.72 129.54 0)
 			(effects
 				(font
@@ -7817,7 +7917,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "SW74")
+					(reference "SW75")
 					(unit 1)
 				)
 			)
@@ -7912,7 +8012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "760e7174-16e8-49cf-b6a4-944284bf4521")
-		(property "Reference" "D80"
+		(property "Reference" "D81"
 			(at 172.72 137.1599 90)
 			(effects
 				(font
@@ -7975,7 +8075,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "D80")
+					(reference "D81")
 					(unit 1)
 				)
 			)
@@ -8007,7 +8107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 66.04 27.94 0)
 			(effects
 				(font
@@ -8154,7 +8254,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 106.68 78.74 0)
 			(effects
 				(font
@@ -8285,7 +8385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d8572d1-6e35-43b3-9a13-4207b914273b")
-		(property "Reference" "SW80"
+		(property "Reference" "SW81"
 			(at 167.64 123.19 0)
 			(effects
 				(font
@@ -8301,7 +8401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 167.64 129.54 0)
 			(effects
 				(font
@@ -8337,7 +8437,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "SW80")
+					(reference "SW81")
 					(unit 1)
 				)
 			)
@@ -8353,7 +8453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f15b599-ca8e-4d39-91b6-3809749b356e")
-		(property "Reference" "D70"
+		(property "Reference" "D71"
 			(at 213.36 111.7599 90)
 			(effects
 				(font
@@ -8416,7 +8516,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "D70")
+					(reference "D71")
 					(unit 1)
 				)
 			)
@@ -8448,7 +8548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 35.56 104.14 0)
 			(effects
 				(font
@@ -8595,7 +8695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 76.2 78.74 0)
 			(effects
 				(font
@@ -8663,7 +8763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 96.52 27.94 0)
 			(effects
 				(font
@@ -8968,7 +9068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 116.84 27.94 0)
 			(effects
 				(font
@@ -9036,7 +9136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 76.2 104.14 0)
 			(effects
 				(font
@@ -9183,7 +9283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 218.44 27.94 0)
 			(effects
 				(font
@@ -9235,7 +9335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88a39383-1dab-411d-a542-ddfb2517c09b")
-		(property "Reference" "D82"
+		(property "Reference" "D83"
 			(at 203.2 137.1599 90)
 			(effects
 				(font
@@ -9298,7 +9398,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "D82")
+					(reference "D83")
 					(unit 1)
 				)
 			)
@@ -9393,7 +9493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f7674c8-6666-438d-bfaa-dec99e2acf2f")
-		(property "Reference" "D73"
+		(property "Reference" "D74"
 			(at 40.64 137.1599 90)
 			(effects
 				(font
@@ -9456,7 +9556,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "D73")
+					(reference "D74")
 					(unit 1)
 				)
 			)
@@ -9646,7 +9746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 116.84 78.74 0)
 			(effects
 				(font
@@ -9698,7 +9798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92d76214-7c9a-4cc9-922c-860eb44729d0")
-		(property "Reference" "D69"
+		(property "Reference" "D70"
 			(at 203.2 111.7599 90)
 			(effects
 				(font
@@ -9761,7 +9861,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "D69")
+					(reference "D70")
 					(unit 1)
 				)
 			)
@@ -9951,7 +10051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 147.32 53.34 0)
 			(effects
 				(font
@@ -10019,7 +10119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 157.48 53.34 0)
 			(effects
 				(font
@@ -10087,7 +10187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 147.32 27.94 0)
 			(effects
 				(font
@@ -10155,7 +10255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 86.36 53.34 0)
 			(effects
 				(font
@@ -10223,7 +10323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 127 53.34 0)
 			(effects
 				(font
@@ -10291,7 +10391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 228.6 27.94 0)
 			(effects
 				(font
@@ -10422,7 +10522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4eec845-47a6-433f-9c63-6ea04225abfe")
-		(property "Reference" "SW71"
+		(property "Reference" "SW72"
 			(at 218.44 97.79 0)
 			(effects
 				(font
@@ -10438,7 +10538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 218.44 104.14 0)
 			(effects
 				(font
@@ -10474,7 +10574,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "SW71")
+					(reference "SW72")
 					(unit 1)
 				)
 			)
@@ -10568,7 +10668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a74dc50b-21e2-4219-91cf-2f21ac26b000")
-		(property "Reference" "D71"
+		(property "Reference" "D72"
 			(at 223.52 111.7599 90)
 			(effects
 				(font
@@ -10631,7 +10731,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "D71")
+					(reference "D72")
 					(unit 1)
 				)
 			)
@@ -10663,7 +10763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 45.72 104.14 0)
 			(effects
 				(font
@@ -10731,7 +10831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 198.12 27.94 0)
 			(effects
 				(font
@@ -10799,7 +10899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 96.52 104.14 0)
 			(effects
 				(font
@@ -10930,7 +11030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b720c038-f706-4bc0-afa5-3261f1b9ea11")
-		(property "Reference" "D75"
+		(property "Reference" "D76"
 			(at 60.96 137.1599 90)
 			(effects
 				(font
@@ -10993,7 +11093,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "D75")
+					(reference "D76")
 					(unit 1)
 				)
 			)
@@ -11025,7 +11125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 208.28 27.94 0)
 			(effects
 				(font
@@ -11093,7 +11193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.75u_Plate"
 			(at 35.56 78.74 0)
 			(effects
 				(font
@@ -11240,7 +11340,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 157.48 27.94 0)
 			(effects
 				(font
@@ -11308,7 +11408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 55.88 27.94 0)
 			(effects
 				(font
@@ -11455,7 +11555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 66.04 104.14 0)
 			(effects
 				(font
@@ -11602,7 +11702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 86.36 104.14 0)
 			(effects
 				(font
@@ -11733,7 +11833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1e7bda3-14c3-4f02-86bb-dd34213339c6")
-		(property "Reference" "SW70"
+		(property "Reference" "SW71"
 			(at 208.28 97.79 0)
 			(effects
 				(font
@@ -11749,7 +11849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 208.28 104.14 0)
 			(effects
 				(font
@@ -11785,7 +11885,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "SW70")
+					(reference "SW71")
 					(unit 1)
 				)
 			)
@@ -11817,7 +11917,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 137.16 53.34 0)
 			(effects
 				(font
@@ -12043,7 +12143,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 55.88 78.74 0)
 			(effects
 				(font
@@ -12269,7 +12369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 127 27.94 0)
 			(effects
 				(font
@@ -12416,7 +12516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 45.72 53.34 0)
 			(effects
 				(font
@@ -12705,7 +12805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d99a02d8-b3d5-41c1-8462-9f1224309234")
-		(property "Reference" "D76"
+		(property "Reference" "D77"
 			(at 101.6 137.1599 90)
 			(effects
 				(font
@@ -12768,7 +12868,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "D76")
+					(reference "D77")
 					(unit 1)
 				)
 			)
@@ -12863,7 +12963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcb6ff82-dd7b-4fd6-8b24-8137fd8f3db0")
-		(property "Reference" "SW78"
+		(property "Reference" "SW79"
 			(at 147.32 123.19 0)
 			(effects
 				(font
@@ -12879,7 +12979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 147.32 129.54 0)
 			(effects
 				(font
@@ -12915,7 +13015,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "SW78")
+					(reference "SW79")
 					(unit 1)
 				)
 			)
@@ -13026,7 +13126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 127 78.74 0)
 			(effects
 				(font
@@ -13094,7 +13194,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_Vertical_Plate"
 			(at 228.6 53.34 0)
 			(effects
 				(font
@@ -13478,7 +13578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 86.36 78.74 0)
 			(effects
 				(font
@@ -13546,7 +13646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 45.72 78.74 0)
 			(effects
 				(font
@@ -13677,7 +13777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5b96bdd-2a5a-4247-8ef9-9c729b1a5e1d")
-		(property "Reference" "SW73"
+		(property "Reference" "SW74"
 			(at 35.56 123.19 0)
 			(effects
 				(font
@@ -13693,7 +13793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_Plate"
 			(at 35.56 129.54 0)
 			(effects
 				(font
@@ -13729,7 +13829,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "SW73")
+					(reference "SW74")
 					(unit 1)
 				)
 			)
@@ -13745,7 +13845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e66f9266-c282-43de-9f25-c0f9e3576d4a")
-		(property "Reference" "D68"
+		(property "Reference" "D69"
 			(at 172.72 111.7599 90)
 			(effects
 				(font
@@ -13808,7 +13908,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "D68")
+					(reference "D69")
 					(unit 1)
 				)
 			)
@@ -13824,7 +13924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e95933fa-145b-4a59-916a-9d81fe3f21f3")
-		(property "Reference" "SW79"
+		(property "Reference" "SW80"
 			(at 157.48 123.19 0)
 			(effects
 				(font
@@ -13840,7 +13940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 157.48 129.54 0)
 			(effects
 				(font
@@ -13876,7 +13976,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "SW79")
+					(reference "SW80")
 					(unit 1)
 				)
 			)
@@ -13987,7 +14087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 55.88 53.34 0)
 			(effects
 				(font
@@ -14267,6 +14367,85 @@
 		)
 	)
 	(symbol
+		(lib_id "JLClib:1N4148WST4")
+		(at 160.02 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1ad22d7-5c84-4c77-b207-fd037b75cb07")
+		(property "Reference" "D68"
+			(at 162.56 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "A"
+			(at 163.83 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "JLClib:SOD-323_L1.8-W1.3-LS2.5-RD"
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Switching-Diode_1N4148WS-T4_C2128.html"
+			(at 170.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148WS"
+			(at 160.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2128"
+			(at 172.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7d192eb-fda4-4d71-bdff-324c535f9f87")
+		)
+		(pin "1"
+			(uuid "9bed5799-6fbb-406b-99dc-82d550d6aa31")
+		)
+		(instances
+			(project "Migouner2"
+				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
+					(reference "D68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 208.28 53.34 0)
 		(unit 1)
@@ -14292,7 +14471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 208.28 53.34 0)
 			(effects
 				(font
@@ -14360,7 +14539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 127 104.14 0)
 			(effects
 				(font
@@ -14428,7 +14607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 147.32 78.74 0)
 			(effects
 				(font
@@ -14575,7 +14754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 147.32 104.14 0)
 			(effects
 				(font
@@ -14643,7 +14822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_ISOEnter_Plate"
 			(at 167.64 53.34 0)
 			(effects
 				(font
@@ -14695,7 +14874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f77b46f4-9513-41f1-b17d-44275e2f74eb")
-		(property "Reference" "D79"
+		(property "Reference" "D80"
 			(at 162.56 137.1599 90)
 			(effects
 				(font
@@ -14758,7 +14937,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "D79")
+					(reference "D80")
 					(unit 1)
 				)
 			)
@@ -14932,7 +15111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbde8025-e542-4047-ba26-0ad7baa89f60")
-		(property "Reference" "SW72"
+		(property "Reference" "SW73"
 			(at 228.6 97.79 0)
 			(effects
 				(font
@@ -14948,7 +15127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_Vertical_Plate"
 			(at 228.6 104.14 0)
 			(effects
 				(font
@@ -14984,7 +15163,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "SW72")
+					(reference "SW73")
 					(unit 1)
 				)
 			)
@@ -15016,7 +15195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
 			(at 76.2 27.94 0)
 			(effects
 				(font
@@ -15068,7 +15247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcba1e81-4525-4910-9b9a-a4fff29b32f5")
-		(property "Reference" "SW82"
+		(property "Reference" "SW83"
 			(at 198.12 123.19 0)
 			(effects
 				(font
@@ -15084,7 +15263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLClib:SW_Cherry_MX_1.00u_Plate"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_Plate"
 			(at 198.12 129.54 0)
 			(effects
 				(font
@@ -15120,7 +15299,7 @@
 		(instances
 			(project "Migouner2"
 				(path "/b5f28d8a-611d-48ff-9a02-46928dcaa688/0c0f44d8-261d-41ae-9cae-9be8cc9f6452"
-					(reference "SW82")
+					(reference "SW83")
 					(unit 1)
 				)
 			)
